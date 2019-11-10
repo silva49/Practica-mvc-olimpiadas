@@ -173,5 +173,12 @@ namespace MVC_Vista_
             btneliminar.Enabled = false;
             btncancelar.Enabled = false;
         }
+
+        private void btnregresar_Click(object sender, EventArgs e)
+        {
+            Menu menu = new Menu();
+            menu.Show();
+            this.Dispose();
+        }
     }
 }   

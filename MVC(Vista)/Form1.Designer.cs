@@ -41,6 +41,7 @@
             this.btncancelar = new System.Windows.Forms.Button();
             this.label4 = new System.Windows.Forms.Label();
             this.txtcodigo = new System.Windows.Forms.TextBox();
+            this.btnregresar = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dtpaises)).BeginInit();
             this.SuspendLayout();
             // 
@@ -169,11 +170,22 @@
             this.txtcodigo.TabIndex = 10;
             this.txtcodigo.Visible = false;
             // 
+            // btnregresar
+            // 
+            this.btnregresar.Location = new System.Drawing.Point(417, 268);
+            this.btnregresar.Name = "btnregresar";
+            this.btnregresar.Size = new System.Drawing.Size(127, 32);
+            this.btnregresar.TabIndex = 11;
+            this.btnregresar.Text = "Regresar";
+            this.btnregresar.UseVisualStyleBackColor = true;
+            this.btnregresar.Click += new System.EventHandler(this.btnregresar_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(558, 521);
+            this.Controls.Add(this.btnregresar);
             this.Controls.Add(this.txtcodigo);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.btncancelar);
@@ -208,6 +220,7 @@
         private System.Windows.Forms.Button btncancelar;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.TextBox txtcodigo;
+        private System.Windows.Forms.Button btnregresar;
     }
 }
 
